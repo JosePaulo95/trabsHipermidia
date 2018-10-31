@@ -1,0 +1,29 @@
+/* Add a black background color to the top navigation */
+.slider {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 0px;
+    /* background-color: #b13d3d; */
+    color: #444;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    height: 100;
+}
+
+/* Style the links inside the navigation bar */
+.slider a {
+    /* background-color: rgba(42, 95, 15, 0.8); */
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slider a img{
+    width: 100%;
+}
+
+.slider-main {
+    height: 300px;
+    text-align: center;
+}
